@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.nav ul {
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.nav li{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid black;
+}
+.nav a{
+    color: white;
+}
+.nav a:hover{
+    background-color: whitesmoke;
+}
+@media screen and (min-width:600px) {
+
+    .container .jumbotron {
+        margin: 10px;
+        text-align: center;
+        text-decoration: double;
+        background-color: blanchedalmond;
+    }
+    
+}
+.buttons {
+   display: flex;
+   justify-content: space-evenly;
+   list-style: none;
+
+}
+.thumbnail{
+    height: 300px;
+}
